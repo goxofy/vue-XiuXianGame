@@ -34,6 +34,9 @@ export default defineConfig({
             }
         }
     },
+    preview: {
+        allowedHosts: ['xiuxian.coolify.110x.de']
+    },
     plugins: [
         vue(),
         Icons({
